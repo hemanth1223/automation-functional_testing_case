@@ -12,13 +12,33 @@ This test case automates the following tasks:
 4. **Capture a video** of the entire process.
 5. **Take a screenshot** of the final output page.
 
-## Input
+## Test Steps & Input
 
-- **URL for the Panel**: [https://demo.dealsdray.com/](https://demo.dealsdray.com/)
-- **Login credentials**:
-  - Username: [prexo.mis@dealsdray.com](mailto:prexo.mis@dealsdray.com)
-  - Password: [prexo.mis@dealsdray.com](mailto:prexo.mis@dealsdray.com)
-- **XLS file to upload**: Refer Code
+1. **Visit the Web Application:**
+   - Navigate to: [https://demo.dealsdray.com/](https://demo.dealsdray.com/)
+
+2. **Login:**
+   - Use the following credentials to log in:
+     - **Username:** [prexo.mis@dealsdray.com](mailto:prexo.mis@dealsdray.com)
+     - **Password:** [prexo.mis@dealsdray.com](mailto:prexo.mis@dealsdray.com)
+
+3. **Navigate to Orders Section:**
+   - Go to the "Orders" section.
+
+4. **Add a Bulk Order:**
+   - Click on the "Add Bulk Orders" button.
+
+5. **Upload XLS File:**
+   - Download the file and upload it. (Refer Code)
+
+6. **Validate Data:**
+   - Click the "Validate Data" button.
+
+7. **Capture Screenshot:**
+   - Take a screenshot of the page displaying validation results.
+
+8. **Handle Errors:**
+   - Note any issues faced during the XLS file upload and data validation process.
 
 ## Output
 
