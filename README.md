@@ -18,7 +18,7 @@ This test case automates the following tasks:
 - **Login credentials**:
   - Username: [prexo.mis@dealsdray.com](mailto:prexo.mis@dealsdray.com)
   - Password: [prexo.mis@dealsdray.com](mailto:prexo.mis@dealsdray.com)
-- **XLS file to upload**: [demo-data.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/24eba15b-94be-418e-9a04-9150883ff8b3/demo-data.xlsx)
+- **XLS file to upload**: Refer Code
 
 ## Output
 
@@ -35,12 +35,12 @@ This test case automates the following tasks:
    
 2. Set Up the Environment:
    Ensure you have Python installed.
-   Create and activate a virtual environment:
+   - Create and activate a virtual environment:
     ```bash
     python -m venv .venv
     source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
 
-   Install the required dependencies:
+   - Install the required dependencies:
     ```bash
     pip install -r requirements.txt
     
