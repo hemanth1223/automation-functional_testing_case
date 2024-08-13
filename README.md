@@ -1,1 +1,0 @@
-# automation-functional_testing_case
