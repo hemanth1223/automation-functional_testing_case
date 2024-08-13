@@ -35,13 +35,11 @@ This test case automates the following tasks:
    
 2. Set Up the Environment:
    Ensure you have Python installed.
-   - Create and activate a virtual environment:
+   
+   Create and activate a virtual environment & Install the required dependencies:
     ```bash
     python -m venv .venv
     source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
-
-   - Install the required dependencies:
-    ```bash
     pip install -r requirements.txt
     
 3. Run the Test:
@@ -49,8 +47,8 @@ This test case automates the following tasks:
    python functional_test.py
 
 4. Review the Output:
-   The video of the process will be saved as test_video.mp4.
-   The screenshot of the final output page will be saved as final_output.png.
+   The video of the process will be saved as test_video.mp4 or any name.
+   The screenshot of the final output page will be saved as final_output.png. (Here, I have used MS Excel to import the final output data instead of screenshot.)
    The test script is provided in the repository.
 
 ## Notes
@@ -58,5 +56,3 @@ Ensure that the web application is accessible, and the provided credentials are 
 The video recording of the test process can be done using screen recording tools such as OBS Studio or any other preferred tool.
 The script is written in Python and uses Selenium WebDriver with the Firefox browser.
 If any issues arise during the test, ensure that all dependencies are installed, and the browser drivers are correctly configured.
-
-    
